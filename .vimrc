@@ -48,8 +48,12 @@ if dein#load_state('/Users/femiagbabiaka/.local/cache/dein')
   endif
   call dein#add('hauleth/blame.vim')
   call dein#add('lu-ren/SerialExperimentsLain')
-
-
+  call dein#add('zchee/deoplete-jedi')
+  call dein#add('vim-perl/vim-perl6')
+  call dein#add('editorconfig/editorconfig-vim')
+  call dein#add('rhysd/vim-clang-format')
+  call dein#add('google/vim-maktaba')
+  call dein#add('bazelbuild/vim-bazel')
 
   " Required:
   call dein#end()

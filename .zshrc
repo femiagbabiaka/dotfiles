@@ -1,5 +1,5 @@
 # If you come from bash you might have to change your $PATH.
-export PATH="/usr/local/sbin:/usr/local/opt/coreutils/libexec/gnubin:/usr/local/opt/coreutils/libexec/gnuman:$HOME/.roswell/bin:/usr/local/bin:/usr/local/opt/mysql@5.5/bin:/opt/local/bin:/opt/local/sbin:$HOME/.rbenv/bin:$HOME/.local/bin:$HOME/go/bin:$PATH"
+export PATH="$(pyenv root)/shims:/usr/local/sbin:/usr/local/opt/coreutils/libexec/gnubin:/usr/local/opt/coreutils/libexec/gnuman:$HOME/.roswell/bin:/usr/local/bin:/usr/local/opt/mysql@5.5/bin:/opt/local/bin:/opt/local/sbin:$HOME/.rbenv/bin:$HOME/.local/bin:$HOME/go/bin:$PATH"
 
 # Path to your oh-my-zsh installation.
 export ZSH=/Users/femiagbabiaka/.oh-my-zsh
@@ -93,6 +93,8 @@ source /usr/local/bin/virtualenvwrapper_lazy.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias ls="ls --color=auto"
 alias vim="/usr/local/bin/vim"
+alias gss="git status -s"
+alias gs="git status"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
